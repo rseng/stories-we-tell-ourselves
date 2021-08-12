@@ -23,6 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "/stories-we-tell-ourselves" # the subpath of your site, e.g. /blog
 url: ""
+reponame: rseng/stories-we-tell-ourselves
 
 markdown: kramdown
 permalink: /:year/:title/
