@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>{{page.title}} | {{site.data.settings.title}}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{"/assets/css/main.css" | absolute_url}}" />
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="back-button">
+            <a href="{{"/" | relative_url}}">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <section class="wrapper {{site.data.post.wrapperStyle}} {{site.data.post.wrapperAlign}}">
+        <div class="inner">
+            <h1>{{page.title}}</h1>
+            <p>{{page.subtitle}}</p>
+            <div class="index align-left">
+                <section>
+                    <header>
+                        <h4 style="font-weight: 500">Share this:</h4>
+                        <ul class="icons social-sticky">
+                            <li><a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{page.url | absolute_url}}&hashtags={{page.tags}}&via={{site.data.social.twitterHandle}}" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://www.facebook.com/sharer.php?u={{page.url | absolute_url}}" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                            <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://reddit.com/submit?url={{page.url | absolute_url}}&title={{page.title}}" class="icon style2 fa-reddit"><span class="label">Reddit</span></a></li>
+                        </ul>
+                    </header>
+                    <div class="content post-content">
+                        {{content}}
+                    </div>
+                </section>
+                <section>
+                    <div class="content">
+                        <h3 style="font-weight: 400; text-align: center;">Keep reading</h3>
+                        <div class="more-posts-container">
+                            {% if page.previous %}
+                                <div class="more-post">
+                                    <a class="more-post-link" href="{{page.previous.url | relative_url}}">
+                                        <h3>{{page.previous.title}}</h3>
+                                    </a>
+                                    <div>
+                                        {{page.previous.excerpt | truncatewords: 15}}
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                            {% if page.next %}
+                                <div class="more-post">
+                                    <a class="more-post-link" href="{{page.next.url | relative_url}}">
+                                        <h3>{{page.next.title}}</h3>
+                                    </a>
+                                    <div>
+                                        {{page.next.excerpt | truncatewords: 15}}
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
