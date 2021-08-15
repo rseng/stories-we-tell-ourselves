@@ -31,7 +31,7 @@ For some random reason, the function isn't included in the code base.
 You know the language, but the issue here is that you literally just can't see it.
 You can make an educated guess based on the function name (an assertion to the importance
 of variable naming!) but you just can't be sure until you know the details.
-This kind of confusion is just missing information. It can usually resolved by asking
+This kind of confusion is just missing information. It can usually be resolved by asking
 someone for the missing details. If it's impossible to find out, you can recognize that
 and proceed cautiously, noting that you have limited information and are making assumptions.
 
