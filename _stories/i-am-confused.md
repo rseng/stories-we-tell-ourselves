@@ -20,7 +20,7 @@ and logical steps to take to resolve it. Some of these I heard about in <a href=
 
 If someone presents you with a script in a language that you've never seen before and asks "What does this code do?"
 you are likely to scratch your head and realize you don't know. But how could you know? It's knowledge that you've
-never actually encountered. The resolution here is easy - look it up on this magical place called the internet!
+never actually encountered. The resolution here is easy - look it up on this magical place called the Internet!
 This is temporary confusion caused by a lack of knowledge, and the only thing between you and understanding
 is probably a Wikipedia article.
 
@@ -31,7 +31,7 @@ For some random reason, the function isn't included in the code base.
 You know the language, but the issue here is that you literally just can't see it.
 You can make an educated guess based on the function name (an assertion to the importance
 of variable naming!) but you just can't be sure until you know the details.
-This kind of confusion is just missing information. It can usually resolved by asking
+This kind of confusion is just missing information. It can usually be resolved by asking
 someone for the missing details. If it's impossible to find out, you can recognize that
 and proceed cautiously, noting that you have limited information and are making assumptions.
 

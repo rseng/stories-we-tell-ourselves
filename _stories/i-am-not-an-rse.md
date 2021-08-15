@@ -11,7 +11,7 @@ research software engineering community would give talks and write papers that a
 
 In these presentations, they presented a research software engineer generally as 
 someone that lives on the dimension "between researcher and programmer." For many of us,
-we looked at that definition, and then looked at ourselves, and thought <span>I'm not an RSE</a>.
+we looked at that definition, and then looked at ourselves, and thought <span>I'm not an RSE</span>.
 The definition left out the true diversity of our community, which includes many
 different levels of education, background, experience or domain knowledge, and 
 expertise in unexpected areas like front end development, user support, documentation
