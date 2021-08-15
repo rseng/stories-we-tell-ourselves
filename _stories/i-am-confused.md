@@ -20,7 +20,7 @@ and logical steps to take to resolve it. Some of these I heard about in <a href=
 
 If someone presents you with a script in a language that you've never seen before and asks "What does this code do?"
 you are likely to scratch your head and realize you don't know. But how could you know? It's knowledge that you've
-never actually encountered. The resolution here is easy - look it up on this magical place called the internet!
+never actually encountered. The resolution here is easy - look it up on this magical place called the Internet!
 This is temporary confusion caused by a lack of knowledge, and the only thing between you and understanding
 is probably a Wikipedia article.
 
